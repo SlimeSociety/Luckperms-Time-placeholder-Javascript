@@ -1,7 +1,9 @@
 #### DISCLAIMER: Yes, there may be a way to shorten this javascript and make it more readable, but you know what? Stick it up your butt and make your own if you know better! Otherwise, please enjoy :3
 
 ```------------------------------WHAT THIS IS:------------------------------
-If you are using luckperms and the placeholder for expiration time of either of the two options given by luckperms, you might also find it annoying that you cannot shorten the time nor translate hours, minutes etc into your language. This javascript does exactly that!
+If you are using luckperms and the placeholder for expiration time of either of the two options given by luckperms, 
+you might also find it annoying that you cannot shorten the time nor translate hours, minutes etc into your language. 
+This javascript does exactly that!
 ----------------------------------CREDITS----------------------------------
 Requested by: SilverCore#6666
 Made by: MidnightCore#6666
@@ -17,7 +19,8 @@ Do not, under any circumstances, edit the first variable, that will make the jav
     2. Is the translation used when parsing the placeholder in your game.
     3. Sets the placeholder to be shown at all or not
 ------------------------------INSTALLATION:------------------------------
-1.) Drag and drop this whole document as is into the following folder of your server: plugins -> PlaceholderAPI -> javascripts and edit the format as described above in HOW TO EDIT.
+1.) Drag and drop this whole document as is into the following folder of your server: 
+plugins -> PlaceholderAPI -> javascripts and edit the format as described above in HOW TO EDIT.
 2.) Now you need to register this javascript in plugins -> PlaceholderAPI -> javascript_placeholders.yml
 Into that file, add the following AS IS, both lines:
 time:
@@ -28,4 +31,5 @@ time:
   To convert %luckperms_inherited_expiry_time% USE %javascript_time_inherited_expiry_time,<permission>% 
   ```
   
-#### !!!!!!!!!!!!!!!! ATTENTION: Do not replace the comma in front of the <permission> with an underscore! We really want you to use the comma, don't try to be a hero and use an underscore, haha.
+#### !!!!!!!!!!!!!!!! ATTENTION: Do not replace the comma in front of the <permission> with an underscore! 
+#### We really want you to use the comma, don't try to be a hero and use an underscore, haha.
