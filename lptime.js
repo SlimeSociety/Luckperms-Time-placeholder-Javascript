@@ -65,7 +65,7 @@ function luckperms_time(){
     for(var i = 0; i<time.length; i++){
       for(var j = 0; j < Lang.length; j++){
         if(time[i].indexOf(Lang[j][0]) !== -1){
-          if(Lang[j][2]){
+          if(Lang[j][2] || time.length < 2){
             time[i] = time[i].replace( Lang[j][0],Lang[j][1] );
           } else {
             time[i] = "";
